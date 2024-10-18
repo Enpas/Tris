@@ -44,7 +44,7 @@ body {
   left: 0;
   width: 125px;
   height: 60px;
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: rgba(0, 0, 0, 0.1);
   z-index: -1;
 }
 
@@ -88,7 +88,7 @@ body {
 }
 
 .tris-grid .tris-box:hover {
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: rgba(0, 0, 0, 0.1);
 }
 
 #results {
@@ -140,18 +140,30 @@ body {
     padding: 1.5em 0 0 0;
   }
 
+  .tris-turn-container {
+    height: 95px;
+  }
+
   .tris-turn-container h1 {
     font-size: 1.5em;
+  }
+
+  .tris-turn-container .turn-background {
+    height: 50px;
   }
 
   .tris-grid {
     width: 300px;
     height: 300px;
-    margin: 2.5rem auto;
+    margin: 1rem auto;
   }
 
   .tris-grid .tris-box {
     font-size: 2.5rem; 
+  }
+
+  .tris-grid .tris-box:hover {
+    background-color: transparent;
   }
 
   #results {
